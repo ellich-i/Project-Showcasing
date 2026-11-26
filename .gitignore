@@ -1,0 +1,23 @@
+# Dependencies (heavy, anyone can reinstall with npm install)
+node_modules/
+
+# Secrets (NEVER commit these)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Build output
+dist/
+build/
+
+# Uploaded files during development
+uploads/
